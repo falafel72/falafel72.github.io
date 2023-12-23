@@ -5,19 +5,7 @@
         <title>{{ page.title }}</title>
 	</head>	
 	<body>
-		<div class="toolbar" class="center">
-            <p><a href="/">home</a></p> 
-			<span>&#183;</span> 
-			<p><a href="/about.html">about</a></p>
-			<span>&#183;</span> 
-			<p><a>projects</a></p>
-			<span>&#183;</span> 
-			<p><a>media</a></p>
-			<span>&#183;</span> 
-			<p><a>hobbies</a></p>
-			<span>&#183;</span> 
-			<p><a>resume</a></p>
-		</div>
+        {% include navigation.html %}
 		<hr noshade>
         <div class="content">
 		{{ content }}
