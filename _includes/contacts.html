@@ -1,0 +1,9 @@
+<footer>
+    <hr noshade>
+    {% for item in site.data.contacts %}
+        <a href="{{ item.link }}">{{item.name}}</a>
+        {% unless item == site.data.contacts.last %}
+            <span>&#183;</span> 
+        {% endunless %}
+    {% endfor %}
+</footer>   
