@@ -54,3 +54,18 @@ footer {
 	right: 0;
 	margin-bottom: 1em;
 }
+
+ul { 
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+ul h2 {
+	text-align: left;
+}
+
+ul p {
+	padding-left: 2em;
+	text-align: left;
+}
