@@ -6,11 +6,12 @@ title: Blog
 <ul>
 {% for post in site.posts %}
     <li>
+        <h3>{{ post.date | date_to_string }}</h3>
         <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
         <p>{{ post.blurb }}</p>
     </li>
-{% endfor %}
+    {% endfor %}
 </ul>
 {% else %}
-    <p> there's nothing here... </p>
+<p> there's nothing here... </p>
 {% endif %}
