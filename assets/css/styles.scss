@@ -1,0 +1,58 @@
+---
+---
+@import "main";
+
+div.content {
+	  display: flex;
+	  width: 50%;
+	  margin-left: auto;
+	  margin-right: auto;
+	  margin-top: 3em;
+}
+
+div.content > .info{
+	  flex: 40%;
+}
+
+div.content img.display-picture {
+	  width: 200px;
+	  border-radius: 50%;
+}
+
+div.content > p.description {
+	  flex: 60%;
+	  text-align: left;
+	  padding-left: 10%;
+	  line-height: 1.5;
+}
+
+div.content > p.about-text {
+	  text-align: left;
+}
+
+footer {
+	  position: fixed;
+	  bottom: 0;
+	  left: 0;
+	  right: 0;
+	  margin-bottom: 1em;
+}
+
+ul {
+	  list-style-type: none;
+	  padding: 0;
+	  margin: 0;
+}
+
+ul h2 {
+	  text-align: left;
+}
+
+ul h3 {
+    text-align : left
+}
+
+ul p {
+	  padding-left: 2em;
+	  text-align: left;
+}
