@@ -1,0 +1,16 @@
+---
+layout: default
+title: Projects
+---
+{% if site.projects.size > 0 %}
+<ul>
+    {% for project in site.projects %}
+    <li>
+        <h2><a href="{{ project.url }}">{{ project.title }}</a></h2>
+        <p>{{ project.blurb }}</p>
+    </li>
+    {% endfor %}
+</ul>
+{% else %}
+<p> i probably haven't gotten to writing things up yet - coming soon! </p>
+{% endif %}
