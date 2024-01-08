@@ -16,7 +16,7 @@ $bg-color: #dedede;
 	  margin-top: 50px;
 }
 
-.toolbar > p { 
+.toolbar > p {
 	  display: inline;
 }
 
@@ -34,6 +34,7 @@ hr {
 a {
     color: black;
     text-decoration: none;
+    font-weight: bold;
 
     &:hover {
         text-decoration: underline;
