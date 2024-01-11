@@ -4,14 +4,16 @@
 
 div.content {
 	  display: flex;
+    flex-wrap: wrap;
 	  width: 50%;
 	  margin-left: auto;
 	  margin-right: auto;
-	  margin-top: 3em;
+	  padding-top: 5em;
 }
 
 div.content > .info{
-	  flex: 40%;
+    padding-top: 1em;
+    flex-grow: 1;
 }
 
 div.content img.display-picture {
@@ -20,10 +22,10 @@ div.content img.display-picture {
 }
 
 div.content > p.description {
-	  flex: 60%;
 	  text-align: left;
 	  padding-left: 10%;
 	  line-height: 1.5;
+    flex-grow: 2;
 }
 
 div.content > p.about-text {
@@ -31,17 +33,19 @@ div.content > p.about-text {
 }
 
 footer {
+    background-color: $bg-color;
 	  position: fixed;
 	  bottom: 0;
 	  left: 0;
 	  right: 0;
-	  margin-bottom: 1em;
+	  padding-bottom: 1em;
 }
 
 ul {
 	  list-style-type: none;
 	  padding: 0;
 	  margin: 0;
+    width: 100%;
 }
 
 ul h2 {

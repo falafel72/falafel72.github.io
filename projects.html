@@ -4,13 +4,15 @@ title: Projects
 ---
 {% if site.projects.size > 0 %}
 <ul>
-    {% for project in site.projects %}
+    {% assign sorted = site.projects | reverse %}
+    {% for project in sorted %}
     <li>
-        <h2><a href="{{ project.url }}">{{ project.title }}</a></h2>
+        <!-- <h2><a href="{{ project.url }}">{{ project.title }}</a></h2> -->
+        <h2>{{ project.title }} </h2>
         <p>{{ project.blurb }}</p>
     </li>
     {% endfor %}
 </ul>
 {% else %}
-<p> i probably haven't gotten to writing things up yet - coming soon! </p>
+<p> there's nothing here... </p>
 {% endif %}

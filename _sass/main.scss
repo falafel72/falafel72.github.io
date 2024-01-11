@@ -10,15 +10,13 @@
 $font-stack: 'EB Garamond';
 $bg-color: #dedede;
 
-.toolbar {
-	  margin-left : auto;
-	  margin-right: auto;
-	  margin-top: 50px;
+header {
+    position: fixed;
+    width: 100%;
+    margin-top: 2em;
 }
 
-.toolbar > p {
-	  display: inline;
-}
+
 
 body {
 	  text-align: center;

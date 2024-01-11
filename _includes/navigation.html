@@ -1,8 +1,9 @@
-<div class="toolbar" class="center">
+<header>
     {% for item in site.data.navigation %}
         <a href="{{ item.link }}">{{item.name}}</a>
         {% unless item == site.data.navigation.last %}
         <span>&#183;</span> 
         {% endunless %}
     {%endfor%}
-</div>
+    <hr noshade>
+</header>
