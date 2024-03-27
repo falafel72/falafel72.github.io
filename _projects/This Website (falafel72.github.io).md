@@ -19,3 +19,5 @@ I have three main goals for this website:
 
 To that end, I'm starting off with something incredibly simple, and I'll add to
 it once I know what direction I want it to go in and how to execute it.
+
+Currently using EB Garamond for the main font. 
