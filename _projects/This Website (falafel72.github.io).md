@@ -1,7 +1,7 @@
 ---
 layout: post
 blurb: the thing you're looking at! created with jekyll and hosted on github pages
-date: 2024-12-14
+date: 2023-12-14
 ---
 
 I'm planning on making this more of a place to dump my thoughts on how this
