@@ -2,7 +2,7 @@
 ## Must-haves
 - [ ]  at least one actual blog post
 - [ ] project list + description
- -[x] a font that isn't arial
+- [x] a font that isn't arial
 
 ## Nice-to-haves
 - [ ] full project writeups
