@@ -7,8 +7,11 @@ title: Projects
     {% assign sorted = site.projects | reverse %}
     {% for project in sorted %}
     <li>
-        <!-- <h2><a href="{{ project.url }}">{{ project.title }}</a></h2> -->
-        <h2>{{ project.title }} </h2>
+        {% if project.link != nil %}
+        <h2><a href="{{ project.link }}">{{ project.title }}</a></h2>
+        {% else %}
+        <h2><a href="{{ project.url }}">{{ project.title }}</a></h2>
+        {% endif %}
         <p>{{ project.blurb }}</p>
     </li>
     {% endfor %}

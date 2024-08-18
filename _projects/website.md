@@ -1,4 +1,5 @@
 ---
+title: This website (falafel72.github.io)
 layout: post
 blurb: the thing you're looking at! created with jekyll and hosted on github pages
 date: 2023-12-14
